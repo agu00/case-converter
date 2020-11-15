@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="case-converter.js"></script>
+
+    <title>Case Converter</title>
+    
+</head>
+<body>
+    <div class="container">
+
+        <h2>CASE CONVERTER</h2>
+
+        <div class="subContainer">
+            <label for="title">Text</label><br>
+            <input type="text" id="titleInput" />
+        </div>
+
+        <div class="subContainer">
+            <button onclick="document.getElementById('result').innerHTML = document.getElementById('titleInput').value.toUpperCase()">UPPER CASE</button>
+            <button onclick="document.getElementById('result').innerHTML = document.getElementById('titleInput').value.toLowerCase()">lower case</button>
+            <button onclick="capitalizedCase()">Capitalized Case</button>
+            <button onclick="urlCase()">url-case</button>
+        </div>  
+        <div class="subContainer">
+            <textarea id="result"></textarea>
+        </div>
+        <div class="subContainer">
+            <button onclick="copyText()">Copy the result</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
