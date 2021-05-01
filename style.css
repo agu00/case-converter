@@ -1,5 +1,5 @@
-.container {font-family:Calibri;display:block;margin:0 auto;width:90%;text-align: center;}
-.subContainer {width:205px;display:block;margin:0 auto;}
+.container {font-family:Calibri;display:block;margin:0 auto;width:90%;text-align:center;}
+.subContainer {width:205px;display:block;margin:0 auto;text-align:left;}
 input {width:212px;}
 button {display:block;width:220px;margin:0 auto;margin-top:1em;color:white;background-color:black;padding:0.7em 0.3em;border-color:black;border-radius:0.2em;}
 textarea {width:212px;display:block;margin:0 auto;margin-top:1em;}
