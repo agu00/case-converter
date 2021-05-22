@@ -1,8 +1,16 @@
+    function sentenceCase() {
+            var firstInput = document.getElementById('textInput').value.trim().toLowerCase().split(' ');
+            for(var i = 0;i < firstInput.length;i++) {
+                firstInput[0] = firstInput[0].charAt(0).toUpperCase() + firstInput[0].slice(1);
+                document.getElementById('result').innerHTML = firstInput.join(' ');
 
+            }
+
+        }
 
         function capitalizedCase() {
-
             var firstInput = document.getElementById('textInput').value.trim().toLowerCase().split(' ');
+            
             for(var i = 0;i < firstInput.length;i++) {
                 firstInput[i] = firstInput[i].charAt(0).toUpperCase() + firstInput[i].slice(1); 
                 document.getElementById('result').innerHTML = firstInput.join(' ');
